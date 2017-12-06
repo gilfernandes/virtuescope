@@ -1,0 +1,149 @@
+* {
+    box-sizing: content-box;
+}
+
+#movement, #behaviour, #advanced, #spinner, #yearPlanPdf, #yearPlanMail,
+#virtuescopePredictions, #virtuescopeContent, .yearPlanVirtue, #yearPlanRestart {
+    display: none
+}
+
+#virtuescopePredictions {
+    font-size: 42px;
+    margin: 1px 1px 10px 1px
+}
+
+#virtuescopeContent, .yearPlanEntry {
+    padding: 20px 20px 20px 20px !important;
+    border-radius: 10px;
+    margin-bottom: 20px
+}
+
+#yearPlanRestart {
+    margin: 20px auto;
+}
+
+#textDisplay {
+    font-size: 1.4em;
+    padding-top: 10px
+}
+
+#startIt {
+    padding: 10px 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+#introText {
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-size: 32px;
+}
+
+.yearPlanEntry h2 {
+    margin-top: 0
+}
+
+#yearPlanControls {
+    margin: 10px auto;
+    padding: 0
+}
+
+body, #virtuescopeContainer, #canvasContainer, #yearPlanControls {
+    width: 99%;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+#canvasContainer {
+    width: 670px !important;
+    min-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spinContainer {
+    width: 100%;
+}
+
+#myCanvas {
+    margin: 0 auto;
+    display: block;
+}
+
+#plansFormDiv {
+    width: 100%;
+    display: block;
+}
+
+#plansForm {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#plans {
+    border-radius: 12px;
+    padding: 5px 29px;
+    color: blue;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#efefef);
+    background-image: -moz-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -webkit-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -o-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -ms-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(12%, #ffffff), color-stop(79%, #efefef), color-stop(100%, #efefef));
+}
+
+#plans-button {
+    margin: 20px auto;
+    display: block;
+}
+
+#spinContainer {
+    padding-top: 20px
+}
+
+#virtuescopeContent {
+    width: 95%;
+    margin: 0 auto 90px auto
+}
+
+.virtue {
+    margin-top: 0;
+}
+
+.month {
+    width: 100%;
+    margin-left: 0;
+}
+
+#plans-menu {
+    background-color: ghostwhite;
+}
+
+/* Mail dialogue related */
+.ui-button-text, .ui-button, .ui-selectmenu-text {
+    font-size: 32px !important;
+    border-radius: 10px
+}
+
+.ui-widget {
+    border-radius: 10px !important;
+}
+
+.ui-dialog {
+    background-color: white
+}
+
+.ui-dialog input[type=text] {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 22px
+}
+
+#mailLabel {
+    margin-top: 20px
+}

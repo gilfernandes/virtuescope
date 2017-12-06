@@ -1,0 +1,241 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#movement, #behaviour, #advanced, #spinner, #yearPlanPdf, #yearPlanMail,
+#virtuescopePredictions, #virtuescopeContent, .yearPlanVirtue, #yearPlanRestart {
+    display: none
+}
+
+#virtuescopePredictions {
+    font-size: 42px;
+}
+
+#virtuescopeContent, .yearPlanEntry {
+    padding: 20px 20px 20px 20px !important;
+    border-radius: 10px;
+    margin-bottom: 20px
+}
+
+#yearPlanRestart {
+    margin: 0 auto 20px auto;
+}
+
+#textDisplay {
+    font-size: 1.4em;
+    padding-top: 10px
+}
+
+#startIt {
+    padding: 10px 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+#startIt, #plans, #yearPlanRestart {
+    width: 80%;
+}
+
+#startIt, #yearPlanRestart {
+    padding: 0 30px;
+}
+
+#introText {
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-size: 24px;
+}
+
+#yearPlan, #virtuescopePredictions {
+    margin: 0 20px
+}
+
+#sendButtons {
+    margin: 15px 20px 0 20px;
+}
+
+.yearPlanEntry h2 {
+    margin-top: 0
+}
+
+#yearPlanControls {
+    margin: 0 auto 0 auto;
+    padding: 0
+}
+
+#virtuescopeContainer {
+    width: 100%;
+}
+
+#canvasContainer {
+    width: 66%;
+    max-width: 600px;
+    min-width: 600px;
+}
+
+#yearPlanControls {
+    width: 30%;
+}
+
+#canvasContainer, #yearPlanControls {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ui-button-text, .plans {
+    font-family: 'Roboto', sans-serif;
+}
+
+#yearPlanControls {
+    vertical-align: 81px;
+}
+
+#spinContainer {
+    width: 100%;
+}
+
+#myCanvas {
+    margin: 0 auto;
+    display: block;
+}
+
+#plansFormDiv {
+    width: 100%;
+    display: block;
+}
+
+#plansForm {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#plans {
+    border-radius: 12px;
+    padding: 5px 29px;
+    color: #0073ea;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#efefef);
+    background-image: -moz-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -webkit-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -o-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -ms-linear-gradient(top, #ffffff 12%, #efefef 79%, #efefef 100%);
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(12%, #ffffff), color-stop(79%, #efefef), color-stop(100%, #efefef));
+}
+
+#plans-button {
+    margin: 20px auto;
+    display: block;
+}
+
+#spinContainer {
+    padding-top: 20px
+}
+
+#virtuescopeContent {
+    margin: 0 auto 20px auto
+}
+
+.virtue {
+    margin-top: 0;
+}
+
+.month {
+    width: 100%;
+    margin-left: 0;
+}
+
+#plans-menu {
+    background-color: ghostwhite;
+}
+
+/* Mail dialogue related */
+.ui-button-text, .ui-button, .ui-selectmenu-text {
+    font-size: 32px;
+    border-radius: 10px
+}
+
+.ui-widget {
+    border-radius: 10px !important;
+}
+
+.ui-dialog {
+    background-color: white
+}
+
+.ui-dialog input[type=text] {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 22px
+}
+
+#mailLabel {
+    margin-top: 20px
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For mobile phones: */
+    #canvasContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #introText {
+        font-size: 2.5rem;
+    }
+
+    #startIt, #plans, #yearPlanRestart, #yearPlanPdf, #yearPlanMail {
+        width: 60%;
+        height: 100px;
+    }
+
+    #yearPlanPdf, #yearPlanMail {
+        margin: 20px auto;
+        padding: 0 30px;
+    }
+
+    #yearPlanControls {
+        width: 100%;
+    }
+
+    #textDisplay {
+        margin: 0 20px;
+    }
+
+    #virtuescopePredictions {
+        font-size: 3.8rem;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #virtuescopeContent, .yearPlanEntry, .ui-button-text, .ui-button {
+        font-size: 2.8rem;
+    }
+
+    #plans {
+        font-size: 2.3rem;
+    }
+
+    #spinner {
+        width: 70px;
+        height: 70px;
+        padding-top: 30px;
+    }
+
+    .yearPlanTitle {
+        font-size: 2.7rem !important;
+    }
+
+    .dialog {
+        zoom: 2;
+    }
+}

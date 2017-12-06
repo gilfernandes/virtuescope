@@ -1,0 +1,108 @@
+﻿<html>
+<head>
+    <script src="../../js/lib/jquery.min-1.11.1.js"></script>
+    <script src="../../js/lib/jquery.json.min.js"></script>
+    <script src="../../js/lib/jquery.cookie.js"></script>
+    <script src="../../js/jquery-dataTables-1.10.1/js/jquery.dataTables-1.10.1.js"></script>
+    <script src="../../js/jquery-ui-1.11.1.flick/jquery-ui.min.js"></script>
+    <script src="../../js/compression/lz-string-1.4.4.js"></script>
+    <script src="../../js/lib/handlebars-v4.0.5.js"></script>
+    <script src="../../js/lib/canvas_wrapper.js"></script>
+    <script src="../../js/loader_support.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-dataTables-1.10.1/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.structure.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/spanish.css" media="screen"/>
+</head>
+<body>
+
+<div id="virtuescopeContainer" class="vs-row">
+    <!-- UI Part -->
+    <div id="canvasContainer" class="col-3">
+        <canvas id="myCanvas" width="600" height="600"></canvas>
+        <canvas id="triangle" width="90" height="50"></canvas>
+        <div id="showAdvanced" title="Click for more options">+</div>
+        <div id="advanced">
+            <form>
+                <span id="movement">Movement:</span>
+                <select id="behaviour">
+                    <option value="1">Deceleration</option>
+                    <option value="2">Constant</option>
+                    <option value="3">Crazy</option>
+                </select>
+                <!-- History -->
+            </form>
+            <a href="#" onclick="return hist.renderHistory()" id="showHist">Show history</a>
+            <a href="#" onclick="return hist.deleteHistory()" id="delHist">Delete history</a>
+            <a href="#" id="showImages" title="Cards with images will be displayed.">Show images</a>
+
+            <div id="history"></div>
+        </div>
+        <div id="dialogueVs"></div>
+    </div>
+    <div id="yearPlanControls" class="col-9">
+
+        <div class="vs-row">
+            <div class="col-7" id="spinContainer">
+                <!-- Wheel controls -->
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-12" id="textDisplay">
+                <p id="introText"></p>
+                <div id="virtuescopeContent"></div>
+                <div id="runningMsg"></div>
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-7" id="plansFormDiv">
+                <button id="startIt" class="btn-primary btn-lg">Play</button>
+                <form id="plansForm"><select id="plans"></select></form>
+                <img id="spinner" src="../../images/icons/spinner.gif"/>
+            </div>
+            <div class="col-5" id="yearPlanRestartRow">
+                <button id="yearPlanRestart" onclick="yearPlan.restart()" class="">Restart</button>
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-6">
+                <h2 id="virtuescopePredictions">Virtuescope Predictions</h2>
+            </div>
+            <div class="col-6" id="sendButtons">
+                <button id="yearPlanPdf" onclick="yearPlan.downloadPdf()">Download PDF</button>
+                <button id="yearPlanMail">Send Email</button>
+            </div>
+        </div>
+        <div id="yearPlan">
+
+        </div>
+    </div>
+</div>
+
+<script src="../../js/global.js"></script>
+<script src="../../js/util.js"></script>
+<script src="../../js/es_ES.js"></script><!-- Replace for another language -->
+<script src="../../js/plans.js"></script>
+<script src="../../js/hist.js"></script>
+<script src="../../js/anim.js"></script>
+<script src="../../js/cookie_loader.js"></script>
+<script src="../../js/init.js"></script>
+
+<script type="text/javascript">
+
+    // Overriding spinner behaviour
+    var setSpinner = setInterval(function () {
+        if (typeof spinnerVirtuescope !== "undefined") {
+            spinnerVirtuescope.show = function () {
+                jQuery("#spinner").show().css("display", "block").css("margin", "0 auto");
+            };
+            clearInterval(setSpinner);
+        }
+    }, 1000);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<html>
+<head>
+    <script src="../../js/lib/jquery.min-1.11.1.js"></script>
+    <script src="../../js/lib/jquery.json.min.js"></script>
+    <script src="../../js/lib/jquery.cookie.js"></script>
+    <script src="../../js/jquery-dataTables-1.10.1/js/jquery.dataTables-1.10.1.js"></script>
+    <script src="../../js/jquery-ui-1.11.1.flick/jquery-ui.min.js"></script>
+    <script src="../../js/compression/lz-string-1.4.4.js"></script>
+    <script src="../../js/lib/handlebars-v4.0.5.js"></script>
+    <script src="../../js/lib/canvas_wrapper.js"></script>
+    <script src="../../js/loader_support.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-dataTables-1.10.1/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.structure.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/spanish.css" media="screen" />
+</head>
+<body>
+<script type="text/javascript">
+
+    jQuery.ajax("../vs_include.html").done(function(data) {
+        jQuery("body").html(Handlebars.compile(data)({}));
+        var jsFolder = "../../js/";
+        loaderSupport.loadFile(jsFolder + "global.js");
+        loaderSupport.loadFile(jsFolder + "util.js");
+        loaderSupport.checkReadyOther("util", function () {
+            var targetScript = util.readParam("lang");
+            targetScript = targetScript === "" ? "es_ES" : targetScript;
+            loaderSupport.loadFile(jsFolder + targetScript + ".js");
+            loaderSupport.loadFile(jsFolder + "plans.js");
+            loaderSupport.loadFile(jsFolder + "hist.js");
+            loaderSupport.loadFile(jsFolder + "anim.js");
+            loaderSupport.loadFile(jsFolder + "cookie_loader.js");
+            loaderSupport.checkReadyOther("getGlobalLocale", function () {
+                loaderSupport.loadFile(jsFolder + "init.js");
+            });
+        });
+    });
+
+    // Overriding spinner behaviour
+    var setSpinner = setInterval(function() {
+        if(typeof spinner !== "undefined") {
+            spinner.show = function() {
+                jQuery("#spinner").show().css("display", "block").css("margin", "0 auto");
+            };
+            clearInterval(setSpinner);
+        }
+    }, 1000);
+
+
+</script>
+</body>
+</html>

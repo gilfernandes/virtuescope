@@ -1,0 +1,124 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.center {
+    margin: 100px;
+}
+
+h1 {
+    color: dodgerblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+    border-radius: 10px !important;
+}
+
+.vs-row  {
+    width: 100%;
+    display: flex;
+    flex-wrap: inherit;
+}
+
+.col-1 {
+    width: 8.33333333333333%;
+}
+
+.col-2 {
+    width: 16.6666666666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333333333333%;
+}
+
+.col-5 {
+    width: 41.6666666666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333333333333%;
+}
+
+.col-8 {
+    width: 66.6666666666667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333333333333%;
+}
+
+.col-11 {
+    width: 91.6666666666667%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+#virtuescopeContainer { width: 99%; }
+#yearPlanControls { vertical-align: top; padding-right: 10px }
+#canvasContainer { width: 650px; min-width: 650px; margin-left: -250px}
+
+#rotation, #stopIt, #yearPlanRestart ,#yearPlanPdf,#yearPlanMail { display: none }
+#plansForm { display: inline }
+#virtuescopeContent {
+    width: 100%; background-color: #eedde1; display: none;
+    padding: 10px 20px; text-align: left; border-radius: 10px; border: 2px solid #fff;
+    box-shadow: 0 0 10px #fff; outline: none;
+}
+
+#virtuescopeContent h2 { margin-top: 10px }
+
+.yearplanToggler { float: right; font-size: 13px; margin-top: 12px; text-decoration: none; clear: both }
+#yearPlanControls h2 { width: 250px; color: #333 }
+.yearPlanVirtue, .yearPlanTitle { float: left; width: 120px; font-size: 110%; margin: 10px 0 0 0; }
+.yearPlanVirtue { margin-top: 10px; white-space: nowrap }
+.yearPlanEntry { clear: both; }
+.yearPlanEntry img { display: block; margin-left: auto; margin-right: auto }
+.yearPlanEntry p, .yearPlanEntryLink, .yearPlanEntryPause { text-align: center; text-decoration: none !important; font-size: 14px }
+.month { width: 24%; margin-left: 10px }
+.month .yearPlanEntry { min-height: 150px; font-size: 16px }
+.yearPlanEntry h2 { display: none }
+#virtuescopePredictions { width: 100% !important; }
+#plans-menu { border: 1px solid #eaeaea; background-color: white }
+#plans { border-radius: 12px; padding: 5px 29px; color: blue; font-weight: bold; font-size: 18px; }
+#virtuescopePredictions { display: none }
+#spinner { position: relative; top: 8px; left: 12px; display: none; height: 30px; }
+#sendButtons { text-align: right }
+
+#yearPlanRestartRow { text-align: right }
+#yearPlan { display: flex; width: 100%; flex-wrap: wrap; -ms-flex-wrap: wrap }
+
+#toEmail { width: 100% }
+#mailLabel { padding: 10px 0 }
+#advanced { display: none }
+#advanced { width: 600px; margin-bottom: 40px; margin-left: 15px }
+#advanced form { margin-bottom: 10px }
+
+#spinContainer { position: relative }
+#startIt { width: 200px; height: 35px; margin-top: -4px; }
+#runningMsg { margin-top: 30px }
+#textDisplay { min-height: 180px }
+.ui-dialog { background-color: white; padding: 10px 10px 0 10px !important;}
+#myCanvas { cursor: pointer; }

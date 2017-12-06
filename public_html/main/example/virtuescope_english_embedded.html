@@ -1,0 +1,117 @@
+﻿<html>
+<head>
+
+    <meta name="viewport" content="height=device-height, initial-scale=1.0"/>
+    <style type="text/stylesheet">
+        @-webkit-viewport   { height: device-height; }
+        @-moz-viewport      { height: device-height; }
+        @-ms-viewport       { height: device-height; }
+        @-o-viewport        { height: device-height; }
+        @viewport           { height: device-height; }
+    </style>
+
+    <script src="../../js/lib/jquery.min-1.11.1.js"></script>
+    <script src="../../js/lib/jquery.json.min.js"></script>
+    <script src="../../js/jquery-ui-1.11.1.flick/jquery-ui.min.js"></script>
+    <script src="../../js/lib/handlebars-v4.0.5.js"></script>
+    <script src="../../js/lib/canvas_wrapper.js"></script>
+    <script type="text/javascript" src="jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.structure.css">
+    <link rel="stylesheet" type="text/css" href="../../js/jquery-ui-1.11.1.flick/jquery-ui.theme.css">
+    <link rel="stylesheet" type="text/css" href="jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.min.css">
+    <link rel="stylesheet" type="text/css" href="css/english.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme-overide.css" media="screen"/>
+</head>
+<body>
+
+<div id="virtuescopeContainer" class="vs-row">
+    <!--&lt;!&ndash; UI Part &ndash;&gt;-->
+    <div id="canvasContainer" class="col-3">
+        <canvas id="myCanvas"></canvas>
+        <div id="splash">
+            <img src="images/virtuescope_beezone_intro.png" />
+        </div>
+        <canvas id="triangle" width="90" height="50"></canvas>
+    </div>
+    <div id="yearPlanControls" class="col-9">
+
+        <div class="vs-row">
+            <div class="col-12" id="textDisplay">
+                <div id="virtuescopeContent"></div>
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-7" id="plansFormDiv">
+                <button id="startIt" class="btn-primary btn-lg">Play</button>
+                <button id="meditationNow" class="hidden">Meditate Now</button>
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-7" id="playerContainer">
+                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                    <div class="jp-type-single">
+                        <div class="jp-gui jp-interface">
+                            <div class="jp-volume-controls">
+                                <button class="jp-mute" role="button" tabindex="0">mute</button>
+                                <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                                <div class="jp-volume-bar">
+                                    <div class="jp-volume-bar-value"></div>
+                                </div>
+                            </div>
+                            <div class="jp-controls-holder">
+                                <div class="jp-controls">
+                                    <button class="jp-play" role="button" tabindex="0">play</button>
+                                    <button class="jp-stop" role="button" tabindex="0">stop</button>
+                                </div>
+                                <div class="jp-progress">
+                                    <div class="jp-seek-bar">
+                                        <div class="jp-play-bar"></div>
+                                    </div>
+                                </div>
+                                <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                                <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                                <div class="jp-toggles">
+                                    <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jp-details">
+                            <div class="jp-title" aria-label="title">&nbsp;</div>
+                        </div>
+                        <div class="jp-no-solution">
+                            <span>Update Required</span>
+                            To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="../../js/global.js"></script>
+<script>
+    global.useMobileVersion = function() {
+        return true;
+    };
+
+    const mobileWidth = function() {
+        return window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth;
+    };
+</script>
+<script src="../../js/util.js"></script>
+<script src="../../js/en_BZ.js"></script>
+<script src="../../js/plans.js"></script>
+<script src="../../js/hist.js"></script>
+<script src="../../js/anim.js"></script>
+<script src="../../js/cookie_loader.js"></script>
+<script src="../../js/init.js"></script>
+
+<!-- Overrides for the existing functionality -->
+<script type="text/javascript" src="../../js/plugins/beezone.js"></script>
+
+</body>
+</html>

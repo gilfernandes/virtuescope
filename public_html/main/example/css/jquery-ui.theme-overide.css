@@ -1,0 +1,9 @@
+.ui-button-text-only .ui-button-text {
+    padding: 0 !important;
+}
+
+button, .ui-button-text, .ui-button, .ui-selectmenu-text {
+    font-size: 1em !important;
+    border-radius: 10px;
+    display: block;
+}

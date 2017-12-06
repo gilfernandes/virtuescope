@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base target="js"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/mobile_styles.css">
+    <script src="../js/lib/jquery.min-1.11.1.js"></script>
+    <script src="../js/lib/jquery.json.min.js"></script>
+    <script src="../js/lib/jquery.cookie.js"></script>
+    <script src="../js/jquery-dataTables-1.10.1/js/jquery.dataTables-1.10.1.js"></script>
+    <script src="../js/jquery-ui-1.11.1.flick/jquery-ui.min.js"></script>
+    <script src="../js/compression/lz-string-1.4.4.js"></script>
+    <script src="../js/lib/handlebars-v4.0.5.js"></script>
+    <script src="../js/lib/canvas_wrapper.js"></script>
+    <script src="../js/loader_support.js"></script>
+    <link rel="stylesheet" type="text/css" href="../js/jquery-dataTables-1.10.1/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="../js/jquery-ui-1.11.1.flick/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../js/jquery-ui-1.11.1.flick/jquery-ui.structure.css">
+    <link rel="stylesheet" type="text/css" href="../js/jquery-ui-1.11.1.flick/jquery-ui.theme.css">
+    <title>Virtuescope</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    jQuery.ajax("vs_include.html").done(function(data) {
+        jQuery("body").html(Handlebars.compile(data)({}));
+        var jsFolder = "../js/";
+        loaderSupport.loadFile(jsFolder + "global.js");
+        loaderSupport.loadFile(jsFolder + "util.js");
+        loaderSupport.checkReadyOther("util", function () {
+            var targetScript = util.readParam("lang");
+            targetScript = targetScript === "" ? "en_GB" : targetScript;
+            loaderSupport.loadFile(jsFolder + targetScript + ".js");
+            loaderSupport.loadFile(jsFolder + "plans.js");
+            loaderSupport.loadFile(jsFolder + "hist.js");
+            loaderSupport.loadFile(jsFolder + "anim.js");
+            loaderSupport.loadFile(jsFolder + "cookie_loader.js");
+            loaderSupport.checkReadyOther("getGlobalLocale", function () {
+                loaderSupport.loadFile(jsFolder + "init.js");
+            });
+        });
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+* { box-sizing: content-box; }
+#yearPlanControls { margin: 10px auto; padding: 0 }
+body, #virtuescopeContainer, #canvasContainer, #yearPlanControls { width: 99%; display: block; }
+body { width: 100%; margin: 0 }
+#canvasContainer { width: 500px !important; min-width: 500px; margin-left: auto; margin-right: auto; }
+#spinContainer { width: 100%; margin-top: -50px }
+#startIt { margin: 0 auto; display: block; }
+#myCanvas { margin: 0 auto; display: block; }
+#plansFormDiv { width: 100% }
+#plans-button { margin: 20px auto; display: block; }
+#yearPlanRestartRow { display: none }
+#textDisplay { min-height: 50px; font-size: 1.4em; padding-top: 10px }
+#spinContainer { padding-top: 20px }
+#virtuescopeContent { width: 95%; margin: 0 auto 90px auto }
+.month { width: 45%; margin-left: 10px; }
+#plansFormDiv { display: block }
+#spinner { top: 28px; }

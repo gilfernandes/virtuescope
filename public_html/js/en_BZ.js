@@ -1,0 +1,72 @@
+virtueTexts = {"Tolerance":"Diversity glorifies the garden of life. That's why you like different flowers in your bouquet of friends.","Contentment":"Just by writing a list of your achievements you realize that you have everything you need.","Compassion":"You perceive needs without judging and send out good wishes.","Brotherhood":"Because you know the father every human being has become your brother.","Simplicity":"You see the essentials in the charms of life and light your load by letting go of complications.","Courage":"You have won your greatest battle by agreeing to change","Patience":"Knowing the tiny seed contains the future tree you let your success grow in the soil of constancy","Discipline":"You obey the natural laws of the universe and receive in return protection, abundance and peace of mind","Delicacy":"You make magic wands of your thoughts and actions to turn vulgarity into subtlety","Humility":"You are a spiritual warrior who lays down the weapons of arrogance and resists to the pleasures of praise","Spontaneity":"Your spontaneity is like a gurgling brook which quenches all thirsts and lightens burdens","Responsibility":"Knowing your role is UNIQUE, you are the hero, not the spectator, in the drama of life","Harmony":"When you let go, you see how life dances","Wisdom":"You balance masterly depth and childlike lightness and learn something new in every situation","Faith":"You remove any doubt that blocks your path forward","Friendship":"You are your own best friend","Happiness":"You receive the little miracles of daily life as winks from the divine","Self-confidence":"You accept your good points with humility and simply dare to be great","Detachment":"You know that less expectations means less disappointment","Enthusiasm":"By listening to the child inside you, you give souls wings to fly","Discernment":"When in doubt, you know you can trust your instinct","Purity":"Your inner beauty shines in your eyes. Each one of our qualities is a facet of the diamond within","Hope":"You know each trial is like a friend that helps you grow stronger. That's why you always try again.","Freedom":"You look without judging. Listen without being influenced. Enjoy without greed","Creativity":"The foundation of creativity is inner peace","Concentration":"When silence is deep, brimming with fullness, when there is no more yearning for sound, when there is complete concentration on One, then thought, like an arrow, finds and melts into its target","Strength":"It is through recognising and experiencing my spiritual self that I can connect with God and receive the strength and broader vision that I need to contribute positively to this world","Serenity":"The knowledge of the self is equivalent to truth which brings serenity and spiritual beauty","Respect":"Respect means having no judgments, criticism, blaming and controlling others. Acceptance irrespective of what the other person says or does.","Lightness":"For my true aim is to be a lighthouse — to be filled with light and a feeling of lightness — one in which there’s no pressure or burden, and because of that one is able to share light with others and show them the path","Honesty":"Honesty is not just being natural, but giving to ourselves what is good and positive","Generosity":"Generosity means more than just giving. It also means to cooperate with others. The greatest act of generosity is to see beyond the weaknesses and mistakes of others","Flexibility":"With humility and love, flexibility becomes natural. When I come across someone who is not being co-operative I need to become humble and try to understand what the other person is communicating","Economy":"Economy means to have a focused mind that does not lose time with waste thoughts","Determination":"Determination is an essential quality to nurture if i am to continue on my spiritual journey. No matter how much enthusiasm i have or how clear my aim is ,without determination i will give up sooner or later.In times of challenge,i take care that determination does not lead to stubbornness; then i can let go of resistance and not oppose anyone or anything with my mind"};
+virtueMap = {0: "Tolerance", 1: "Tolerance", 2: "Tolerance", 3: "Tolerance", 4: "Tolerance", 5: "Tolerance", 6: "Tolerance", 7: "Tolerance", 8: "Tolerance", 9: "Tolerance", 10: "Contentment", 11: "Contentment", 12: "Contentment", 13: "Contentment", 14: "Contentment", 15: "Contentment", 16: "Contentment", 17: "Contentment", 18: "Contentment", 19: "Contentment", 20: "Contentment", 21: "Compassion", 22: "Compassion", 23: "Compassion", 24: "Compassion", 25: "Compassion", 26: "Compassion", 27: "Compassion", 28: "Compassion", 29: "Compassion", 30: "Compassion", 31: "Brotherhood", 32: "Brotherhood", 33: "Brotherhood", 34: "Brotherhood", 35: "Brotherhood", 36: "Brotherhood", 37: "Brotherhood", 38: "Brotherhood", 39: "Brotherhood", 40: "Brotherhood", 41: "Simplicity", 42: "Simplicity", 43: "Simplicity", 44: "Simplicity", 45: "Simplicity", 46: "Simplicity", 47: "Simplicity", 48: "Simplicity", 49: "Simplicity", 50: "Simplicity", 51: "Courage", 52: "Courage", 53: "Courage", 54: "Courage", 55: "Courage", 56: "Courage", 57: "Courage", 58: "Courage", 59: "Courage", 60: "Courage", 61: "Courage", 62: "Patience", 63: "Patience", 64: "Patience", 65: "Patience", 66: "Patience", 67: "Patience", 68: "Patience", 69: "Patience", 70: "Patience", 71: "Patience", 72: "Discipline", 73: "Discipline", 74: "Discipline", 75: "Discipline", 76: "Discipline", 77: "Discipline", 78: "Discipline", 79: "Discipline", 80: "Discipline", 81: "Discipline", 82: "Delicacy", 83: "Delicacy", 84: "Delicacy", 85: "Delicacy", 86: "Delicacy", 87: "Delicacy", 88: "Delicacy", 89: "Delicacy", 90: "Delicacy", 91: "Delicacy", 92: "Delicacy", 93: "Humility", 94: "Humility", 95: "Humility", 96: "Humility", 97: "Humility", 98: "Humility", 99: "Humility", 100: "Humility", 101: "Humility", 102: "Humility", 103: "Spontaneity", 104: "Spontaneity", 105: "Spontaneity", 106: "Spontaneity", 107: "Spontaneity", 108: "Spontaneity", 109: "Spontaneity", 110: "Spontaneity", 111: "Spontaneity", 112: "Spontaneity", 113: "Responsibility", 114: "Responsibility", 115: "Responsibility", 116: "Responsibility", 117: "Responsibility", 118: "Responsibility", 119: "Responsibility", 120: "Responsibility", 121: "Responsibility", 122: "Responsibility", 123: "Harmony", 124: "Harmony", 125: "Harmony", 126: "Harmony", 127: "Harmony", 128: "Harmony", 129: "Harmony", 130: "Harmony", 131: "Harmony", 132: "Harmony", 133: "Harmony", 134: "Wisdom", 135: "Wisdom", 136: "Wisdom", 137: "Wisdom", 138: "Wisdom", 139: "Wisdom", 140: "Wisdom", 141: "Wisdom", 142: "Wisdom", 143: "Wisdom", 144: "Faith", 145: "Faith", 146: "Faith", 147: "Faith", 148: "Faith", 149: "Faith", 150: "Faith", 151: "Faith", 152: "Faith", 153: "Faith", 154: "Friendship", 155: "Friendship", 156: "Friendship", 157: "Friendship", 158: "Friendship", 159: "Friendship", 160: "Friendship", 161: "Friendship", 162: "Friendship", 163: "Friendship", 164: "Friendship", 165: "Happiness", 166: "Happiness", 167: "Happiness", 168: "Happiness", 169: "Happiness", 170: "Happiness", 171: "Happiness", 172: "Happiness", 173: "Happiness", 174: "Happiness", 175: "Self-confidence", 176: "Self-confidence", 177: "Self-confidence", 178: "Self-confidence", 179: "Self-confidence", 180: "Self-confidence", 181: "Self-confidence", 182: "Self-confidence", 183: "Self-confidence", 184: "Self-confidence", 185: "Detachment", 186: "Detachment", 187: "Detachment", 188: "Detachment", 189: "Detachment", 190: "Detachment", 191: "Detachment", 192: "Detachment", 193: "Detachment", 194: "Detachment", 195: "Enthusiasm", 196: "Enthusiasm", 197: "Enthusiasm", 198: "Enthusiasm", 199: "Enthusiasm", 200: "Enthusiasm", 201: "Enthusiasm", 202: "Enthusiasm", 203: "Enthusiasm", 204: "Enthusiasm", 205: "Enthusiasm", 206: "Discernment", 207: "Discernment", 208: "Discernment", 209: "Discernment", 210: "Discernment", 211: "Discernment", 212: "Discernment", 213: "Discernment", 214: "Discernment", 215: "Discernment", 216: "Purity", 217: "Purity", 218: "Purity", 219: "Purity", 220: "Purity", 221: "Purity", 222: "Purity", 223: "Purity", 224: "Purity", 225: "Purity", 226: "Hope", 227: "Hope", 228: "Hope", 229: "Hope", 230: "Hope", 231: "Hope", 232: "Hope", 233: "Hope", 234: "Hope", 235: "Hope", 236: "Hope", 237: "Freedom", 238: "Freedom", 239: "Freedom", 240: "Freedom", 241: "Freedom", 242: "Freedom", 243: "Freedom", 244: "Freedom", 245: "Freedom", 246: "Freedom", 247: "Creativity", 248: "Creativity", 249: "Creativity", 250: "Creativity", 251: "Creativity", 252: "Creativity", 253: "Creativity", 254: "Creativity", 255: "Creativity", 256: "Creativity", 257: "Concentration", 258: "Concentration", 259: "Concentration", 260: "Concentration", 261: "Concentration", 262: "Concentration", 263: "Concentration", 264: "Concentration", 265: "Concentration", 266: "Concentration", 267: "Strength", 268: "Strength", 269: "Strength", 270: "Strength", 271: "Strength", 272: "Strength", 273: "Strength", 274: "Strength", 275: "Strength", 276: "Strength", 277: "Strength", 278: "Serenity", 279: "Serenity", 280: "Serenity", 281: "Serenity", 282: "Serenity", 283: "Serenity", 284: "Serenity", 285: "Serenity", 286: "Serenity", 287: "Serenity", 288: "Respect", 289: "Respect", 290: "Respect", 291: "Respect", 292: "Respect", 293: "Respect", 294: "Respect", 295: "Respect", 296: "Respect", 297: "Respect", 298: "Lightness", 299: "Lightness", 300: "Lightness", 301: "Lightness", 302: "Lightness", 303: "Lightness", 304: "Lightness", 305: "Lightness", 306: "Lightness", 307: "Lightness", 308: "Lightness", 309: "Honesty", 310: "Honesty", 311: "Honesty", 312: "Honesty", 313: "Honesty", 314: "Honesty", 315: "Honesty", 316: "Honesty", 317: "Honesty", 318: "Honesty", 319: "Generosity", 320: "Generosity", 321: "Generosity", 322: "Generosity", 323: "Generosity", 324: "Generosity", 325: "Generosity", 326: "Generosity", 327: "Generosity", 328: "Generosity", 329: "Flexibility", 330: "Flexibility", 331: "Flexibility", 332: "Flexibility", 333: "Flexibility", 334: "Flexibility", 335: "Flexibility", 336: "Flexibility", 337: "Flexibility", 338: "Flexibility", 339: "Economy", 340: "Economy", 341: "Economy", 342: "Economy", 343: "Economy", 344: "Economy", 345: "Economy", 346: "Economy", 347: "Economy", 348: "Economy", 349: "Economy", 350: "Determination", 351: "Determination", 352: "Determination", 353: "Determination", 354: "Determination", 355: "Determination", 356: "Determination", 357: "Determination", 358: "Determination", 359: "Determination"};
+backColors = {"Tolerance": "#FFDB00", "Contentment": "#FCA900", "Compassion": "#FF6700", "Brotherhood": "#F84900", "Simplicity": "#D23112", "Courage": "#9F2117", "Patience": "#F42F56", "Discipline": "#A82391", "Delicacy": "#0D6ABD", "Humility": "#36B2D1", "Spontaneity": "#43C1A5", "Responsibility": "#B1D800", "Harmony": "#80A26A", "Wisdom": "#36A18A", "Faith": "#0F619B", "Friendship": "#8D64A0", "Happiness": "#261B65", "Self-confidence": "#110E3D", "Detachment": "#ffdd00", "Enthusiasm": "#feaa00", "Discernment": "#ff6700", "Purity": "#fb4800", "Hope": "#d42f00", "Freedom": "#a11f0e", "Creativity": "#f72b52", "Concentration": "#aa1a93", "Strength": "#0068c0", "Serenity": "#2cb2d3", "Respect": "#3bc2a5", "Lightness": "#b0da00", "Honesty": "#7fa367", "Generosity": "#2fa28a", "Flexibility": "#04609d", "Economy": "#8e62a2", "Determination": "#261767"};
+foregroundColor = {"Tolerance": "#ffffff", "Contentment": "#ffffff", "Compassion": "#ffffff", "Brotherhood": "#ffffff", "Simplicity": "#ffffff", "Courage": "#ffffff", "Patience": "#ffffff", "Discipline": "#ffffff", "Delicacy": "#ffffff", "Humility": "#ffffff", "Spontaneity": "#ffffff", "Responsibility": "#ffffff", "Harmony": "#ffffff", "Wisdom": "#ffffff", "Faith": "#ffffff", "Friendship": "#ffffff", "Happiness": "#ffffff", "Self-confidence": "#ffffff", "Detachment": "#ffffff", "Enthusiasm": "#ffffff", "Discernment": "#ffffff", "Purity": "#ffffff", "Hope": "#ffffff", "Freedom": "#ffffff", "Creativity": "#ffffff", "Concentration": "#ffffff", "Strength": "#ffffff", "Serenity": "#ffffff", "Respect": "#ffffff", "Lightness": "#ffffff", "Honesty": "#ffffff", "Generosity": "#ffffff", "Flexibility": "#ffffff", "Economy": "#ffffff", "Determination": "#ffffff"};
+params = {"angleCorrection":"1.003","backgroundColor":"#ffffff","textColour":"#000000","doStroke":false,"font":"normal 13pt Sans-serif","distanceFromCenter":"124","totalX":600,"totalY":600,"pieSize":250,"drawCircle":true,"simpleGradientStart":"#ff0000","simpleGradientEnd":"#0000ff","innerCircleWidth":70};
+
+var months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+
+var i18n = {
+    "OK": "OK",
+    "Cancel": "Cancel",
+    "Hide history": "Hide history",
+    "No history yet": "No history yet",
+    "Date": "Date",
+    "Virtue": "Virtue",
+    "Hide": "Hide",
+    "Show": "Show",
+    "Work in progress": "Work in progress",
+    "Next month": "Next month",
+    "Show history": "Show history",
+    "Hide Images": "Hide Images",
+    "Show Images": "Show Images",
+    "Cards with text will be displayed.": "Cards with text will be displayed.",
+    "Start Year Plan": "Virtuescope Predictions",
+    "Restart": "Restart",
+    "Running": "Running",
+    "Download PDF": "Download PDF",
+    "Send Email": "Send Email",
+    "Pause": "Pause",
+    "Play": "Spin",
+    "Play again": "Spin again",
+    "Virtuescope": "Virtuescope",
+    "Virtuescope Predictions": "Virtuescope Predictions",
+    "Please enter your email": "Please enter your email",
+    "Please wait": "Please wait ...",
+    "Email sent successfully !": "Email sent successfully !",
+    "Email could not be sent (how embarassing !). Please download the PDF.": "Email could not be sent (how embarassing !). Please download the PDF.",
+    "introText": "Every day spin the wheel and enjoy the magic : keeping in mind that quality, see how it colours your thoughts, your environment, your world."
+};
+
+var plans = {
+    "7 days": "7 days",
+    "3 months": "3 months",
+    "6 months": "6 months",
+    "12 months": "12 months"
+};
+
+var plansLength = {
+    "7 days": "7d",
+    "3 months": "3",
+    "6 months": "6",
+    "12 months": "12",
+    "4 months": "4",
+    "15 days": "15d"
+};
+
+var getGlobalLocale = function() {
+    return "en_BZ";
+};

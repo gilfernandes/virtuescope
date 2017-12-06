@@ -1,0 +1,61 @@
+<div id="virtuescopeContainer" class="vs-row">
+    <!-- UI Part -->
+    <div id="canvasContainer" class="col-3">
+        <canvas id="myCanvas" width="600" height="600"></canvas>
+        <canvas id="triangle" width="90" height="50"></canvas>
+        <div id="showAdvanced" title="Click for more options">+</div>
+        <div id="advanced">
+            <form>
+                <span id="movement">Movement:</span>
+                <select id="behaviour">
+                    <option value="1">Deceleration</option>
+                    <option value="2">Constant</option>
+                    <option value="3">Crazy</option>
+                </select>
+                <!-- History -->
+            </form>
+            <a href="#" onclick="return hist.renderHistory()" id="showHist">Show history</a>
+            <a href="#" onclick="return hist.deleteHistory()" id="delHist">Delete history</a>
+            <a href="#" id="showImages" title="Cards with images will be displayed.">Show images</a>
+
+            <div id="history"></div>
+        </div>
+        <div id="dialogueVs"></div>
+    </div>
+    <div id="yearPlanControls" class="col-9">
+
+        <div class="vs-row">
+            <div class="col-7" id="spinContainer">
+                <!-- Wheel controls -->
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-12" id="textDisplay">
+                <p id="introText"></p>
+                <div id="virtuescopeContent"></div>
+                <div id="runningMsg"></div>
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-7" id="plansFormDiv">
+                <button id="startIt" class="btn-primary btn-lg">Play</button>
+                <form id="plansForm"><select id="plans"></select></form><img id="spinner" src="../images/icons/spinner.gif" />
+            </div>
+            <div class="col-5" id="yearPlanRestartRow">
+                <button id="yearPlanRestart" onclick="yearPlan.restart()" class="">Restart</button>
+            </div>
+        </div>
+        <div class="vs-row">
+            <div class="col-6">
+                <h2 id="virtuescopePredictions">Virtuescope Predictions</h2>
+            </div>
+            <div class="col-6" id="sendButtons">
+                <button id="yearPlanPdf" onclick="yearPlan.downloadPdf()">Download PDF</button>
+                <button id="yearPlanMail">Send Email</button>
+            </div>
+        </div>
+        <div id="yearPlan">
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,365 @@
+* {
+    box-sizing: content-box;
+}
+
+@font-face {
+    font-family: 'FilsonProBook';
+    src: url('../fonts/Filson_Pro_Book/Mostardesign_FilsonProBook.otf');
+}
+
+@font-face {
+    font-family: 'Aclonica';
+    src: url('../fonts/Aclonica/Aclonica-Regular.ttf');
+}
+
+#movement, #behaviour, #advanced, #spinner, #yearPlanPdf, #yearPlanMail,
+#virtuescopePredictions, #virtuescopeContent, .yearPlanVirtue, #yearPlanRestart {
+    display: none
+}
+
+#virtuescopePredictions {
+    font-size: 42px;
+    margin: 1px 1px 10px 1px
+}
+
+#virtuescopeContent, .yearPlanEntry {
+    border-radius: 10px;
+    margin-bottom: 20px
+}
+
+#yearPlanRestart {
+    margin: 20px auto;
+}
+
+#textDisplay {
+    font-size: 1.4em;
+    padding-top: 10px
+}
+
+#startIt {
+    padding: 10px 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+#introText {
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-size: 32px;
+}
+
+.yearPlanEntry h2 {
+    margin-top: 0
+}
+
+#yearPlanControls {
+    margin: 10px auto;
+    padding: 0
+}
+
+#plansFormDiv {
+    position: absolute;
+    width: 100%;
+    bottom: 3em;
+}
+
+body, #virtuescopeContainer, #canvasContainer, #yearPlanControls {
+    display: block;
+    font-family: 'FilsonProBook', sans-serif;
+}
+
+body {
+    background: url(../../../images/virtuescope-green-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#canvasContainer {
+    margin: 0 auto;
+}
+
+#spinContainer {
+    width: 100%;
+}
+
+#myCanvas {
+    margin: 15% auto 21%;
+    display: block;
+}
+
+#spinContainer {
+    padding-top: 20px
+}
+
+#virtuescopeContent {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.0em;
+    font-weight: 100;
+    line-height: 1.3;
+    text-align: center;
+    color: #333333;
+    background: transparent !important;
+}
+
+#virtuescopeContent h2 {
+    font-family: 'Aclonica', serif;
+    font-size: 1.5em;
+    margin-top: 20%;
+}
+
+.virtue {
+    margin-top: 0;
+}
+
+.month {
+    width: 100%;
+    margin-left: 0;
+}
+
+#meditationNow {
+    margin: 0 auto;
+    background: #f6f6f6;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 0.95em 0.5em 0.8em;
+    font-size: 1.5em !important;
+    width: 82%;
+    border-radius: 100px;
+    border: 0;
+    -moz-box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.4);
+    margin-top: 16%;
+    font-family: 'FilsonProBook', sans-serif;
+}
+
+#startIt {
+    margin: 0 auto;
+    background: #84CE00;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 0.95em 0.5em 0.8em;
+    font-size: 1.5em !important;
+    width: 82%;
+    border-radius: 100px !important;
+    border: 0;
+    -moz-box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.4);
+    font-family: 'FilsonProBook', sans-serif;
+}
+
+.ui-button-text-only .ui-button-text {
+    padding: .3em 1em !important;
+}
+
+.ui-widget {
+    border-radius: 10px !important;
+}
+
+.ui-dialog {
+    background-color: white
+}
+
+.ui-dialog input[type=text] {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 22px
+}
+
+#mailLabel {
+    margin-top: 20px
+}
+
+.hidden {
+    display: none;
+}
+
+/* Navigation related */
+#backArrow {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 2em !important;
+}
+
+#backArrow a {
+    text-decoration: none;
+}
+
+/* Audio player */
+
+#jquery_jplayer_1 {
+    margin-top: 22%;
+}
+
+#playerContainer {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 3em;
+}
+
+#jp_container_1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.jp-audio {
+    width: 90%;
+}
+
+.jp-controls-holder {
+    width: auto;
+}
+
+.jp-audio .jp-type-single .jp-progress {
+    left: 80px;
+    width: calc(100% - 161px);
+    border-radius: 30px;
+}
+
+.jp-current-time {
+    float: left;
+    display: inline;
+    cursor: default;
+    margin-left: 24%;
+}
+
+.jp-volume-controls button {
+    z-index: 1000;
+}
+
+.jp-state-muted .jp-mute:focus {
+    background: url("../jPlayer-2.9.2/dist/skin/blue.monday/image/mute-icon-active.png") no-repeat #666;
+    background-size: cover;
+}
+
+.jp-mute:focus {
+    background: url("../jPlayer-2.9.2/dist/skin/blue.monday/image/speaker-icon.png") no-repeat #666;
+    background-size: cover;
+}
+
+.jp-state-muted .jp-mute {
+    background: url("../jPlayer-2.9.2/dist/skin/blue.monday/image/mute-icon-active.png") no-repeat #666;
+    background-size: cover;
+}
+
+/*   Virtuescope Background   */
+.tolerance, .detachment {
+    background: url("../../../images/virtue-card-yellow-bg-big.png") bottom center no-repeat;
+    background-size: cover;
+}
+
+.contentment, .enthusiasm {
+    background: url(../../../images/virtue-card-dark-yellow-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.compassion, .discernment {
+    background: url(../../../images/virtue-card-light-orange-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.brotherhood, .purity {
+    background: url(../../../images/virtue-card-orange-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.simplicity, .hope {
+    background: url(../../../images/virtue-card-red-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.courage, .freedom {
+    background: url(../../../images/virtue-card-dark-red-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.patience, .creativity {
+    background: url(../../../images/virtue-card-pink-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.discipline, .concentration {
+    background: url(../../../images/virtue-card-purple-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.delicacy, .strength {
+    background: url(../../../images/virtue-card-blue-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.humility, .serenity {
+    background: url(../../../images/virtue-card-light-blue-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.spontaneity, .respect {
+    background: url(../../../images/virtue-card-light-teal-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.responsibility, .lightness {
+    background: url(../../../images/virtue-card-lime-green-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.harmony, .honesty {
+    background: url(../../../images/virtue-card-olive-green-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.wisdom, .generosity {
+    background: url(../../../images/virtue-card-teal-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.faith, .flexibility {
+    background: url(../../../images/virtue-card-dark-blue-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.friendship, .economy {
+    background: url(../../../images/virtue-card-light-purple-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.happiness, .determination {
+    background: url(../../../images/virtue-card-indigo-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+.self-confidence {
+    background: url(../../../images/virtue-card-dark-indigo-bg-big.png) bottom center no-repeat;
+    background-size: cover;
+}
+
+/*   Initial screens   */
+#myCanvas {
+    display: none
+}
+
+#triangle {
+    display: none;
+}
+
+#splash {
+    width: 100%;
+    margin-left: 0;
+}
+
+#splash > img {
+    margin: 20% auto 0 auto;
+    display: block;
+    width: 90%;
+}
+
+/* portrait phones */
+@media only screen and (orientation: portrait) {
+    #canvasContainer {
+        margin: 0;
+    }
+}

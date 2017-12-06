@@ -1,0 +1,6 @@
+String src = "D:/dev/bk/html5/virtuescope/HTML5Application/public_html"
+String target = "D:/dev/playground/virtuescope/main"
+
+task copyFiles(dependsOn: []) {
+
+}
