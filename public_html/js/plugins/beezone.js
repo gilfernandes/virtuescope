@@ -40,7 +40,7 @@ const audioFileMap = {
     "Concentration": "audio/Concentration.m4a",
     "Strength": "audio/Strength.m4a",
     "Serenity": "audio/Serenity.m4a",
-    "Respect": "audio/Respect 3.m4a",
+    "Respect": "audio/Respect-3.m4a",
     "Lightness": "audio/Lightness.m4a",
     "Honesty": "audio/Honesty.m4a",
     "Generosity": "audio/Generosity.m4a",
