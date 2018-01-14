@@ -231,6 +231,10 @@ body {
     z-index: 1000;
 }
 
+.jp-mute:focus {
+    display: none
+}
+
 .jp-state-muted .jp-mute:focus {
     background: url("../jPlayer-2.9.2/dist/skin/blue.monday/image/mute-icon-active.png") no-repeat #666;
     background-size: cover;
