@@ -236,8 +236,8 @@ body {
 }
 
 .jp-play {
-    width: 45px !important;
-    background-position: 2px -16px !important; // Specific for iPhone
+    width: 40px !important;
+    background-position: 2px -12px !important; // Specific for iPhone
 }
 
 .jp-volume-controls button {
