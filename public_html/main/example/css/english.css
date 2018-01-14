@@ -235,6 +235,10 @@ body {
     margin-right: 5%;
 }
 
+.jp-play {
+    background-position: 2px -9px !important; // Specific for iPhone
+}
+
 .jp-volume-controls button {
     z-index: 1000;
 }
