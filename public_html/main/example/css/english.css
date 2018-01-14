@@ -216,7 +216,7 @@ body {
 
 .jp-audio .jp-type-single .jp-progress {
     left: 80px;
-    width: calc(100% - 161px);
+    width: calc(100% - 90px);
     border-radius: 30px;
 }
 
@@ -227,12 +227,20 @@ body {
     margin-left: 24%;
 }
 
+.jp-duration {
+    float: right;
+    display: inline;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
 .jp-volume-controls button {
     z-index: 1000;
 }
 
-.jp-mute:focus {
-    display: none
+.jp-mute {
+    display: none !important;
 }
 
 .jp-state-muted .jp-mute:focus {
